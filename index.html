@@ -26,60 +26,13 @@
             href="bootstrap-5.3.3-dist/css/bootstrap.min.css"
             rel="stylesheet"
         />
+    <link rel="stylesheet" href="index.js">
 
     <link href="index.css" rel="stylesheet">
     </head>
 
-    <body class=" bg-white ">
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark" >
-            <a class="navbar-brand" href="#"></a>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapsibleNavId"
-                aria-controls="collapsibleNavId" 
-                id="navbutton"
-                class="placeholder text-dark col-3 placeholder-lg "><i class="fas fa-bars"></i>
-                
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#" aria-current="page"
-                            ><img width="30vw" src="Images/shopping-cart.png" alt="logo"><span class="visually-hidden">(current)</span></a
-                        >
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about.html">About Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle"
-                            href="#"
-                            id="dropdownId"
-                            data-bs-toggle="dropdown"
-                            aria-haspopup="true"
-                            aria-expanded="false" >Bookings
-                        </a>
-
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Services</a>
-                            <a class="dropdown-item" href="#">404</a>
-                        </div>
-                    </li>
-                </ul>
-                <form class="d-flex my-2 my-lg-0">
-                    <input
-                        class="form-control me-sm-2"
-                        type="text"
-                        placeholder="Search"
-                    />
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                        Search
-                    </button>
-                </form>
-            </div>
-        </nav>
+    <body >
+        
         
         <header >
             <!-- place navbar here -->
@@ -123,7 +76,7 @@
                                     >
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
+                                    <a class="nav-link" href="">Link</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a
@@ -171,58 +124,131 @@
         <main>
             <div class=" container-fluid ">
                 
-                <div class="row hero-section text-center my-5 gradient-box  " > 
-                    <div class="col-md-12 animate__animated animate__fadeInLeft " style="font-family: Playfair Display, serif ; ">
-                        <h1 style="font-size: 380%;"><b>Welcome to Makami MarketPlace</b> </h1>
-                        <p >Your one-stop shop for all your needs! </p>
-                        <p > <i>Buy & Sell on Campus</i> </p>
-                        <button type="button" class="btn btn- btn-lg">
-                            <i class="fas fa-shopping-cart"></i> Shop Now
-                        </button>
+                <div class="row hero-section text-center my-5 gradient-box container-fluid" >
+                    
+                    <div class="col-lg-8 col-sm-12 animate__animated animate__fadeInLeft justify-content-center" style="font-family: Playfair Display, serif ; ">
+                        <center>
+                            <h1 style="font-size: 380%;"><b>Welcome to Makami MarketPlace</b> </h1>
+                            <p >Your one-stop shop for all your needs! </p>
+                            <p > <i>Buy & Sell on Campus</i> </p>
+                            <button type="button" class="btn btn- btn-lg">
+                                <i class="fas fa-shopping-cart"></i> Shop Now
+                            </button><br><br>
+                        </center> 
+                      <div>
+                        
+                        <center>
+                            <div class="row container ">
+                            
+                            <div class="card herocard col-lg-3" id="card1"><br>
+                                <center>
+                                <button
+                                    type="button"
+                                    class="btn btn-secondary cardbutton herocardbtn"
+                                    style="  width: 50px; height: 50px;"
+                                    
+                                >
+                                    <i class="fa fa-rocket"></i>
+                                </button>
+                                </center>
+                                <div class="card-body">
+                                    <h4 class="card-title text-light" style="font-size: 20px;">Advertise/Sell</h4>
+                                    <button type="button" class="btn btn-primary btn-kamsi text-dark">
+                                        <i class="fas fa-shopping-cart"></i> Shop Now
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card herocard col-lg-3" id="card2"><br>
+                                <center>
+                               <button
+                                type="button"
+                                class="btn btn-secondary cardbutton herocardbtn"
+                                style=" width: 50px; height: 50px;"
+                               >
+                                <i class="fa fa-rocket"></i>
+                               </button>
+                               </center>
+                                <div class="card-body">
+                                    <h4 class="card-title text-light" style="font-size: 20px;">Home Service</h4>
+                                    <button type="button" class="btn btn-primary btn-kamsi text-dark">
+                                        <i class="fas fa-shopping-cart"></i> Shop Now
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card herocard col-lg-3" id="card3"><br>
+
+                                <center>
+                               <button
+                                type="button"
+                                class="btn btn-secondary cardbutton herocardbtn"
+                                style=" width: 50px; height: 50px;"
+                               >
+                                <i class="fa fa-rocket"></i>
+                               </button>
+                               </center>
+                                <div class="card-body">
+                                    <h4 class="card-title text-light" style="font-size: 20px;">MarketPlace</h4>
+                                    <button type="button" class="btn btn-primary btn-kamsi text-dark">
+                                        <i class="fas fa-shopping-cart"></i> Shop Now
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </center>
+                        
+                      </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12 col-md-6 m  ">
+                        <a href="#">
+                            <img src="Images/e7aae8ec-9d82-4c43-bf23-9259d82ba746-fotor-2025051054527.png" class="img-fluid" width="" alt="">
+                        </a>
                     </div>
                    
                 </div><br><br><br>
 
-                    <div class="row">
+                <div class="row bg-light" style="padding: 50px; ">
                       <div class="col-lg-12 " data-aos="fade-up" data-aos-duration="1000">
-                        <h3 class="display-3" style="font-family: Playfair Display, serif ; text-align: center;">How We Work</h3>
+                        <h3 class="display-3" style="font-family: Playfair Display, serif ; text-align: center; color: #111827;">How We Work</h3>
                       </div>
          
                   <center>
-                    <div class="container row" style="padding-bottom: 100px;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                    <div class="container row" style="padding-bottom: 100px; " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
           
-                        <div class="col-lg-4 card" >
+                        <div class="col-lg-4 card maincard" >
                             <center>
                                  <button class="btn btn-secondary cardbutton">             
                                     <div class="card-img-top"><i class="fas fa-shopping-cart" style="font-size: 50px; color: black;"></i> </i></div>
                                 </button><br> <br> <br>
 
                                 <h4 class="card-title h4 " style="font-size: 28px;">Products</h4>
-                                <div class="card-body" style="font-size: 18px;"><p>Explore our wide range of products.</p> </div>
+                                <div class="card-body" ><p style="font-size: 18px; color: #111827;">Explore our wide range of products.</p> </div>
                             </center>
                            
                         </div >
                       
-                        <div class="col-lg-4 card">
+                        <div class="col-lg-4 card maincard">
                          <center>
                                  <button class="btn btn-secondary cardbutton">             
                               <div class="card-img-top"><i class="fab fa-connectdevelop " style="font-size: 50px; color:black;"></i></div>
                             </button> <br>  <br><br>           
 
                             <h4 class="card-title h4" style="font-size: 28px;">Services</h4>
-                            <div class="card-body" style="font-size: 18px;"><p>Check out the services we offer.</p> </div>
+                            <div class="card-body" ><p style="font-size: 18px; color: #111827;">Check out the services we offer.</p> </div>
                            </center> 
                         </div >
                        
                            
-                          <div class="col-lg-4 card">
+                          <div class="col-lg-4 card maincard">
                             <center>
                                 <button class="btn btn-secondary cardbutton">             
                                 <div class="card-img-top"><i class="fa fa-rocket " style="font-size: 50px; color:black;"></i></div>
                               </button><br><br><br>         
 
                               <h4 class="card-title h4" style="font-size: 28px;">Contact Us</h4>
-                              <div class="card-body" style="font-size: 18px;"><p>Get in touch with us for any inquiries.</p></div>
+                              <div class="card-body" ><p style="font-size: 18px; color: #111827;">Get in touch with us for any inquiries.</p></div>
                                 </div >
                             </center>
                         </div>
@@ -245,8 +271,8 @@
                             <h4 class="card-title">Product Advertising</h4>
                             <h6 class="card-subtitle text-muted">List your products, set your contact and connect directly with buyers</h6>
                         </div>
-                        <img src="Images/02.jpg" alt="" />
-                        <div class="card-body">
+                        <img src="Images/02.jpg" alt="" class="img-fluid" />
+                        <div class="card-body row">
                             <p class="card-text">
                                 <ul>
                                     <li><i>Zero commisson</i></li>
@@ -255,27 +281,26 @@
                                     <li><i>Build customer Relations</i></li>
                                 </ul>
                             </p>
-                            <a href="#" class="card-link"><button class="btn btn-danger" type="button">Start Selling</button></a>
-                            <a href="#" class="card-link">Link 2</a>
+                            <a href="#" class=" btn btn-kamsi btn-block"><button class="btn " type="button">Start Selling</button></a>
+                            
                         </div>
                     </div>
 
                     <div class="card col-lg-6 card2">
-                        <div class="card-body">
+                        <div class="card-body ">
                             <h4 class="card-title">Campus Home Services</h4>
                             <h6 class="card-subtitle text-muted">Convient, Reliable services for student life</h6>
                         </div>
-                        <img src="Images/02.jpg" alt="" />
-                        <div class="card-body">
-                            <div class="row" style="display: inline;">
+                        <img src="Images/02.jpg" alt="" class="img-fluid"/>
+                        <div class="card-body row">
+                            <div class="row">
                                 <button class="btn button-d col-lg-4 col-sm-4 col-md-4"><i class="fas fa-tshirt"></i><br> Laundry <br>From 500</button>
                                 <button class="btn button-d col-lg-4 col-sm-4 col-md-4"><i class="fa fa-scissors"></i><br> Salon <br> From 1500</button>
                                 <button class="btn button-d col-lg-4 col-sm-4 col-md-4" ><i class="fas fa-hamburger"></i><br> Food Delivery <br>Fast Service</button>
                             </div> <br> <br>
                           
 
-                            <a href="#" class="card-link"><button class="btn btn-outline-sucess btn-block">Find Services</button></a>
-                            <a href="#" class="card-link">Link 2</a>
+                            <a href="#" class="btn btn-kamsi btn-block"><button class="btn">Find Services</button></a>
                         </div>
                     </div>
                     
@@ -308,4 +333,3 @@
         ></script>
     </body>
 </html>
-

@@ -1,3 +1,19 @@
+body{
+    background: linear-gradient(135deg,#0F172A, #1E293B, #111827);
+    color: #f9fafb;
+}
+
+h1, h2, h3, h4,h5,h6, p, b{
+    color: #f9fafb;
+}
+
+.navbar{
+    background: linear-gradient(135deg, #6366F1, #8B5CF6);
+}
+.offcanvas{
+    background: linear-gradient(135deg, #6366F1, #8B5CF6);
+}
+
 #navbutton{
     border: 0;
 }
@@ -10,7 +26,7 @@
 .btn-lg{
     width: 250px;
     border-end-end-radius: 10%;
-    background-color: #fff;
+    background: linear-gradient(135deg, #6366F1, #8B5CF6);
     color: #000;
     border-color: black;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
@@ -28,13 +44,13 @@
 }
 
 
-.card{
+.maincard{
     border: none;
     padding: 20px;
     background-color: transparent;
 }
 
-.card:hover{
+.maincard:hover{
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -81,4 +97,93 @@
     background-color: lightskyblue;
     display: block;
     width: 30vw;
+}
+
+@keyframes lift {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+#card3:hover{
+    border-color:#8B5CF6;
+    animation-name: lift;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.herocard{
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+#card2:hover{
+    border-color:#8B5CF6;
+    animation-name: lift;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#card1:hover{
+    border-color:#8B5CF6;
+    animation-name: lift;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#card1:active{
+    border-color:#8B5CF6;
+    animation-name: lift;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes tilt{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#card1:hover .herocardbtn{
+    animation-name: tilt;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#card2:hover .herocardbtn{
+    animation-name: tilt;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#card3:hover .herocardbtn{
+    animation-name: tilt;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-kamsi{
+    background: linear-gradient(135deg, #6366F1, #8B5CF6);
+    color: #fff;
+    border-color: #6366F1;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.btn-kamsi:hover{
+    color: #fff;
+    border-color: #8B5CF6;
 }
